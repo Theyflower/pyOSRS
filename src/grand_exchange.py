@@ -24,3 +24,10 @@
 
 #Pull requests are encouraged
 #yes I did just GPL an 'empty' file
+
+'''
+stuff that would be useful for this:
+
+we can only query the ge by item id, we'd need to keep a list of item ids somewhere
+probably have that in documentation, having a dictionary for it would be a huge pain
+'''
