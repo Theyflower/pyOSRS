@@ -32,6 +32,28 @@ def hiscore_player(rsn,skill=None):
     return content
     '''
 
+skill_template = {
+    'rank': 100000,
+    'experience': 0,
+    'level': 1
+}
+
+bh_template = {
+    'rank': 100000,
+    'kills': 0
+}
+
+clue_template = {
+    'rank': 100000,
+    'completed': 0
+}
+
+lms_template = {
+    'rank': 100000,
+    'complete': 0
+}
+
+
 class PersonalHiscore:
     '''
     Has:
@@ -66,4 +88,5 @@ class PersonalHiscore:
         the next 23 tr in the page have skillsng info, just what we need!
         one for the total level, then 23 for the individual skills'''
         content = [content[i] for i in skill_indices]
+
     #@todo(aaron): code this
